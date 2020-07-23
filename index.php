@@ -2,11 +2,11 @@
 session_start();
 include "connect.php";
 
-if(empty($_SESSION['namauser'])){
+/*if(empty($_SESSION['namauser'])){
    header("Location: login.html");
 }else{
     echo "";
-}
+}*/
 ?>
 
 <!doctype html>
